@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-10T13:18:25 IST" name="Default suite" finished-at="2021-12-10T13:18:31 IST" duration-ms="6299">
+    <groups>
+    </groups>
+    <test started-at="2021-12-10T13:18:25 IST" name="Default test" finished-at="2021-12-10T13:18:31 IST" duration-ms="6299">
+      <class name="com.sdet2.project.SampleTest">
+        <test-method signature="cmdLineParameter()[pri:0, instance:com.sdet2.project.SampleTest@1de5f259]" started-at="2021-12-10T13:18:25 IST" name="cmdLineParameter" finished-at="2021-12-10T13:18:31 IST" duration-ms="6248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cmdLineParameter -->
+      </class> <!-- com.sdet2.project.SampleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
