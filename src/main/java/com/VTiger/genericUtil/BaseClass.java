@@ -30,12 +30,12 @@ public class BaseClass {
 	public void setUp() {
 		System.out.println("Connect to Database");
 	}
-	@Parameters("BROWSER")
+//	@Parameters("BROWSER")
 	@BeforeClass(groups={"smokeTest","regressionTest"})
 
-     public void lauchBrowser_Url(String browser) throws IOException {
+     public void lauchBrowser_Url() throws IOException {
 		
-//	String browser=FileUtil.objforfileutil().readDatafromPropfile("browser");
+String browser=FileUtil.objforfileutil().readDatafromPropfile("browser");
 		  if(browser.equalsIgnoreCase("chrome"))
 		  {
 			driver=new ChromeDriver();
