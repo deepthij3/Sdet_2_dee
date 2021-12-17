@@ -35,7 +35,11 @@ public class BaseClass {
 
      public void lauchBrowser_Url() throws IOException {
 		
-String browser=FileUtil.objforfileutil().readDatafromPropfile("browser");
+//String browser=FileUtil.objforfileutil().readDatafromPropfile("browser");
+		
+		String browser=System.getProperty("BROWSER");
+		System.out.println(browser);
+		
 		  if(browser.equalsIgnoreCase("chrome"))
 		  {
 			driver=new ChromeDriver();

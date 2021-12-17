@@ -3,11 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.sdet2.project.SampleTest">
+      <class name="com.Vtiger.TC.TC001_CreateOrganizationTest">
         <methods>
-          <include name="cmdLineParameter"/>
+          <include name="logoutApp"/>
+          <include name="createOrganization"/>
+          <include name="closeBrowser"/>
+          <include name="lauchBrowser_Url"/>
+          <include name="createOrgWithPhonenumber"/>
+          <include name="setUp"/>
+          <include name="loginToApp"/>
+          <include name="disconnectFromDatabase"/>
         </methods>
-      </class> <!-- com.sdet2.project.SampleTest -->
+      </class> <!-- com.Vtiger.TC.TC001_CreateOrganizationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

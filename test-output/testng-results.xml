@@ -1,17 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-10T13:18:25 IST" name="Default suite" finished-at="2021-12-10T13:18:31 IST" duration-ms="6299">
+  <suite started-at="2021-12-16T12:39:37 IST" name="Suite" finished-at="2021-12-16T12:41:41 IST" duration-ms="124503">
     <groups>
+      <group name="regressionTest">
+        <method signature="TC001_CreateOrganizationTest.createOrgWithPhonenumber()[pri:0, instance:com.Vtiger.TC.TC001_CreateOrganizationTest@1ed6388a]" name="createOrgWithPhonenumber" class="com.Vtiger.TC.TC001_CreateOrganizationTest"/>
+        <method signature="TC002_CreateOrganizationWithDropdownTest.CreateOrganizationWithDropdown()[pri:0, instance:com.Vtiger.TC.TC002_CreateOrganizationWithDropdownTest@7db12bb6]" name="CreateOrganizationWithDropdown" class="com.Vtiger.TC.TC002_CreateOrganizationWithDropdownTest"/>
+        <method signature="TC003_CreateContactWithOrganizationTest.createContact()[pri:0, instance:com.Vtiger.TC.TC003_CreateContactWithOrganizationTest@942a29c]" name="createContact" class="com.Vtiger.TC.TC003_CreateContactWithOrganizationTest"/>
+      </group> <!-- regressionTest -->
     </groups>
-    <test started-at="2021-12-10T13:18:25 IST" name="Default test" finished-at="2021-12-10T13:18:31 IST" duration-ms="6299">
-      <class name="com.sdet2.project.SampleTest">
-        <test-method signature="cmdLineParameter()[pri:0, instance:com.sdet2.project.SampleTest@1de5f259]" started-at="2021-12-10T13:18:25 IST" name="cmdLineParameter" finished-at="2021-12-10T13:18:31 IST" duration-ms="6248" status="PASS">
+    <test started-at="2021-12-16T12:39:37 IST" name="Test" finished-at="2021-12-16T12:41:41 IST" duration-ms="124503">
+      <class name="com.Vtiger.TC.TC002_CreateOrganizationWithDropdownTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Vtiger.TC.TC002_CreateOrganizationWithDropdownTest@7db12bb6]" started-at="2021-12-16T12:39:37 IST" name="setUp" finished-at="2021-12-16T12:39:37 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cmdLineParameter -->
-      </class> <!-- com.sdet2.project.SampleTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="lauchBrowser_Url()[pri:0, instance:com.Vtiger.TC.TC002_CreateOrganizationWithDropdownTest@7db12bb6]" started-at="2021-12-16T12:39:37 IST" name="lauchBrowser_Url" finished-at="2021-12-16T12:39:45 IST" duration-ms="8169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser_Url -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC.TC002_CreateOrganizationWithDropdownTest@7db12bb6]" started-at="2021-12-16T12:39:45 IST" name="loginToApp" finished-at="2021-12-16T12:39:51 IST" duration-ms="5999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="CreateOrganizationWithDropdown()[pri:0, instance:com.Vtiger.TC.TC002_CreateOrganizationWithDropdownTest@7db12bb6]" started-at="2021-12-16T12:39:51 IST" name="CreateOrganizationWithDropdown" finished-at="2021-12-16T12:40:21 IST" duration-ms="29927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrganizationWithDropdown -->
+        <test-method is-config="true" signature="logoutApp()[pri:0, instance:com.Vtiger.TC.TC002_CreateOrganizationWithDropdownTest@7db12bb6]" started-at="2021-12-16T12:40:21 IST" name="logoutApp" finished-at="2021-12-16T12:40:26 IST" duration-ms="4891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Vtiger.TC.TC002_CreateOrganizationWithDropdownTest@7db12bb6]" started-at="2021-12-16T12:40:26 IST" name="closeBrowser" finished-at="2021-12-16T12:40:27 IST" duration-ms="1255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="disconnectFromDatabase()[pri:0, instance:com.Vtiger.TC.TC002_CreateOrganizationWithDropdownTest@7db12bb6]" started-at="2021-12-16T12:41:41 IST" name="disconnectFromDatabase" finished-at="2021-12-16T12:41:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectFromDatabase -->
+      </class> <!-- com.Vtiger.TC.TC002_CreateOrganizationWithDropdownTest -->
+      <class name="com.Vtiger.TC.TC003_CreateContactWithOrganizationTest">
+        <test-method is-config="true" signature="lauchBrowser_Url()[pri:0, instance:com.Vtiger.TC.TC003_CreateContactWithOrganizationTest@942a29c]" started-at="2021-12-16T12:40:27 IST" name="lauchBrowser_Url" finished-at="2021-12-16T12:40:32 IST" duration-ms="4875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser_Url -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC.TC003_CreateContactWithOrganizationTest@942a29c]" started-at="2021-12-16T12:40:32 IST" name="loginToApp" finished-at="2021-12-16T12:40:36 IST" duration-ms="4468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="createContact()[pri:0, instance:com.Vtiger.TC.TC003_CreateContactWithOrganizationTest@942a29c]" started-at="2021-12-16T12:40:36 IST" name="createContact" finished-at="2021-12-16T12:40:59 IST" duration-ms="22824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method is-config="true" signature="logoutApp()[pri:0, instance:com.Vtiger.TC.TC003_CreateContactWithOrganizationTest@942a29c]" started-at="2021-12-16T12:40:59 IST" name="logoutApp" finished-at="2021-12-16T12:41:01 IST" duration-ms="1895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Vtiger.TC.TC003_CreateContactWithOrganizationTest@942a29c]" started-at="2021-12-16T12:41:01 IST" name="closeBrowser" finished-at="2021-12-16T12:41:02 IST" duration-ms="1232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Vtiger.TC.TC003_CreateContactWithOrganizationTest -->
+      <class name="com.Vtiger.TC.TC001_CreateOrganizationTest">
+        <test-method is-config="true" signature="lauchBrowser_Url()[pri:0, instance:com.Vtiger.TC.TC001_CreateOrganizationTest@1ed6388a]" started-at="2021-12-16T12:41:02 IST" name="lauchBrowser_Url" finished-at="2021-12-16T12:41:08 IST" duration-ms="5239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser_Url -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC.TC001_CreateOrganizationTest@1ed6388a]" started-at="2021-12-16T12:41:08 IST" name="loginToApp" finished-at="2021-12-16T12:41:12 IST" duration-ms="4365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="createOrgWithPhonenumber()[pri:0, instance:com.Vtiger.TC.TC001_CreateOrganizationTest@1ed6388a]" started-at="2021-12-16T12:41:12 IST" name="createOrgWithPhonenumber" finished-at="2021-12-16T12:41:38 IST" duration-ms="26046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithPhonenumber -->
+        <test-method is-config="true" signature="logoutApp()[pri:0, instance:com.Vtiger.TC.TC001_CreateOrganizationTest@1ed6388a]" started-at="2021-12-16T12:41:38 IST" name="logoutApp" finished-at="2021-12-16T12:41:40 IST" duration-ms="2033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Vtiger.TC.TC001_CreateOrganizationTest@1ed6388a]" started-at="2021-12-16T12:41:40 IST" name="closeBrowser" finished-at="2021-12-16T12:41:41 IST" duration-ms="1201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Vtiger.TC.TC001_CreateOrganizationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
